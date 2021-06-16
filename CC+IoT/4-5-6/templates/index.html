@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+    <script src="/static/js/application.js"></script>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 400px;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Stock Monitoring in Smart Factory Warehouse</h1>
+  </div>
+</div>
+
+
+<div class="container" id="content">
+    <div class="row">
+        <div class="row">
+            <div class="column" style="background-color:#aaa;">
+                <h2>Weight:</h2>
+                <div id="val"></div>
+            </div>
+            <div class="column" style="background-color:#bbb;">
+                <h2>Number of product:</h2>
+                <div id="noo"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
